@@ -19,8 +19,11 @@
   <!-- header section -->
   <header>
     <nav class="flex mt-10 justify-around">
-      <div>
+       <div class="flex ">
         <img src="c2-assets/logo-header.png">
+        <div class="lg:hidden flex ml-52">
+        <img class="h-10" src="c2-assets/bars-3.png">
+        </div>
       </div>
       <ul class="md:flex hidden text-black font-semibold gap-10">
         <li><a href="">Product</a></li>
@@ -28,9 +31,17 @@
         <li><a href="">Contact us</a></li>
       </ul>
 
-      <div class="md:flex hidden">
+      <div class="md:flex items-center hidden">
+
+        <div class="flex  gap-4 h-5">
+
+          <img src="c2-assets/Frame 6.png">
+          <img class="mr-5" src="c2-assets/Vector.png">
+        </div>
+       
 
       <div>
+        
        
       </div>
       <div class="gap-3">
@@ -73,24 +84,24 @@
 
     <div class="md:flex gap-5  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center">
       <!-- card first -->
-       <div class="w-56	ml-20  text-center mr-10 bg-[#EFEBE3] border-4">
-        <div class="grid justify-center bg-white rounded-full mt-5">
-          <img class="p-10" src="c2-assets/service.png">
+       <div class="w-[400px] h-[365px] text-center rounded-xl  bg-[#EFEBE3] border-4">
+        <div class="grid justify-center  mt-5">
+          <img class="border-4 border-none bg-white rounded-full p-10" src="c2-assets/service.png">
         </div>
         <h3 class="text-2xl font-semibold mt-5">24/7 Services </h3>
-        <p class="text-gray-400 py-5">Service is a word used constantly.  The word service has an impression on many people.
+        <p class="text-gray-600 py-5 font-medium">Service is a word used constantly.<br>  The word service has an impression on many people.
         </p>
 
        </div>
 
        <!-- card scend -->
         <div class="">
-          <div class="w-56	ml-20 text-center mr-10 bg-[#EFEBE3] border-4">
-            <div class="grid  justify-center bg-white rounded-full mt-5">
-              <img class="p-10" src="c2-assets/delivery.png">
+          <div class="w-[400px] h-[365px] text-center rounded-xl bg-[#EFEBE3] border-4">
+            <div class="grid  justify-center mt-5">
+              <img class="border-4 bg-white rounded-full p-10" src="c2-assets/delivery.png">
             </div>
             <h3 class="text-2xl font-semibold mt-5">Fast Delivery</h3>
-            <p class="text-gray-400 py-5">A van suitable for delivering goods or services to customers. synonyms: 
+            <p class="text-gray-600 py-5 font-medium">A van suitable for delivering goods or services to customers. synonyms: 
               delivery truck, panel truck. van.  </p>
     
            </div>
@@ -98,12 +109,12 @@
 
         <!-- card thard -->
          <div class="">
-          <div class="w-56	ml-20  text-center bg-[#EFEBE3] border-4">
-            <div class="grid justify-center bg-white rounded-full mt-5">
-              <img class="p-10" src="c2-assets/healthy.png">
+          <div class="w-[400px] h-[365px] text-center rounded-xl bg-[#EFEBE3] border-4 border-none">
+            <div class="grid justify-center ">
+              <img class="bg-white mt-5 rounded-full p-10" src="c2-assets/healthy.png">
             </div>
             <h3 class="text-2xl font-semibold mt-5">Healthy Products </h3>
-            <p class="text-gray-400 py-5">Today i went to the coolest hotel ever! I couldn’t believe what i was seeing, 
+            <p class="text-gray-600 py-5 font-medium">Today i went to the coolest hotel ever! I couldn’t believe what i was seeing, 
               it was amazing!</p>
     
            </div>
@@ -120,9 +131,9 @@
         <h3 class="text-[#179800] text-3xl font-semibold">Popular Products</h3>
       </div>
 
-      <div class="md:flex grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+      <div class="md:flex grid-cols-2 md:grid-cols-3 lg:grid-cols-3 ">
       <!-- card first -->
-       <div class="w-96 bg-[#53DB3A] rounded-xl mt-10 border-4">
+       <div class="w-[] lg:w-[30%] bg-[#53DB3A] rounded-xl mt-10 border-4">
        <div class=" ">
         <h3 class="text-white text-4xl font-bold mt-10 pl-10">30% off</h3>
         <p class="ml-10 mt-5">Discover a world of treats, toys,<br> and essentials handpicked for </p>
@@ -137,11 +148,14 @@
 
 
        <!-- products card -->
+        <div class="mt-14 w-[]">
+          <div class="md:flex">
+
        <div class="border-4 rounded-xl bg-white w-48 h-36 ">
 
         <div class="flex ">
         <div class="mt-7 w-40 rounded-lg ml-2 bg-[#997f4b3b]">
-          <img src="c2-assets/image 41.png">
+          <img src="c2-assets/image 43.png">
         </div>
         <div>
         <div class="md:flex mt-7 ml-4 items-center">
@@ -157,11 +171,10 @@
 
         </div>
        
-      
-
-        
-        
        </div>
+
+          
+
 
        <!-- card 2 -->
 
@@ -178,7 +191,7 @@
         </div>
 
         <div class="ml-5">
-        <h2 class="text-1xl font-semibold">Onion 1 KG</h2>
+        <h2 class="text-1xl">Tomato 500 g</h2>
         <h4 class="text-black">$39.99</h4>
         </div>
         </div>
@@ -194,7 +207,7 @@
 
         <div class="flex ">
         <div class="mt-7 w-40 rounded-lg ml-2 bg-[#997f4b3b]">
-          <img src="c2-assets/image 41.png">
+          <img src="c2-assets/image 44.png">
         </div>
         <div>
         <div class="md:flex mt-7 ml-4 items-center">
@@ -203,7 +216,7 @@
         </div>
 
         <div class="ml-5">
-        <h2 class="text-1xl font-semibold">Onion 1 KG</h2>
+        <h2 class="text-1xl font-semibold">Potato 1 KG</h2>
         <h4 class="text-black">$39.99</h4>
         </div>
         </div>
@@ -212,7 +225,11 @@
       
        </div>
 
-       <div class="flex">
+          </div>
+
+
+
+       <div class="md:flex">
         <!-- card scend -->
         <div class="border-4 rounded-xl bg-white w-48 h-36 ">
 
@@ -227,7 +244,7 @@
           </div>
   
           <div class="ml-5">
-          <h2 class="text-1xl font-semibold">Onion 1 KG</h2>
+          <h2 class="text-1xl ">Tomato 500 g</h2>
           <h4 class="text-black">$39.99</h4>
           </div>
           </div>
@@ -240,7 +257,7 @@
 
           <div class="flex ">
           <div class="mt-7 w-40 rounded-lg ml-2 bg-[#997f4b3b]">
-            <img src="c2-assets/image 41.png">
+            <img src="c2-assets/image 43.png">
           </div>
           <div>
           <div class="md:flex mt-7 ml-4 items-center">
@@ -262,7 +279,77 @@
 
           <div class="flex ">
           <div class="mt-7 w-40 rounded-lg ml-2 bg-[#997f4b3b]">
+            <img src="c2-assets/image 44.png">
+          </div>
+          <div>
+          <div class="md:flex mt-7 ml-4 items-center">
+            <img class="w-[10%]" src="c2-assets/star-solid.svg">
+            <h2>4.5</h2>
+          </div>
+  
+          <div class="ml-5">
+          <h2 class="text-1xl font-semibold">Potato 1 KG</h2>
+          <h4 class="text-black">$39.99</h4>
+          </div>
+          </div>
+  
+          </div>
+        
+         </div>
+
+       </div>
+
+       <div class="md:flex">
+        <!-- thard scend -->
+        <div class="border-4 rounded-xl bg-white w-48 h-36 ">
+
+          <div class="flex ">
+          <div class="mt-7 w-40 rounded-lg ml-2 bg-[#997f4b3b]">
+            <img src="c2-assets/image 44.png">
+          </div>
+          <div>
+          <div class="md:flex mt-7 ml-4 items-center">
+            <img class="w-[10%]" src="c2-assets/star-solid.svg">
+            <h2>4.5</h2>
+          </div>
+  
+          <div class="ml-5">
+          <h2 class="text-1xl font-semibold">Potato 1 KG</h2>
+          <h4 class="text-black">$39.99</h4>
+          </div>
+          </div>
+  
+          </div>
+        
+         </div>
+
+         <div class="border-4 rounded-xl bg-white w-48 h-36 ">
+
+          <div class="flex">
+          <div class="mt-7 w-40 rounded-lg ml-2 bg-[#997f4b3b]">
             <img src="c2-assets/image 41.png">
+          </div>
+          <div>
+          <div class="flex mt-7 ml-4 items-center">
+            <img class="w-[10%]" src="c2-assets/star-solid.svg">
+            <h2>4.5</h2>
+          </div>
+  
+          <div class="ml-5">
+          <h2 class="text-1xl">Tomato 500 g </h2>
+          <h4 class="text-black">$39.99</h4>
+          </div>
+          </div>
+  
+          </div>
+        
+         </div>
+
+         <div class="border-4  rounded-xl bg-white w-48 h-36 ">
+
+          <div class="flex ">
+          <div class="mt-7 w-40 rounded-lg ml-2 bg-[#997f4b3b]">
+            <img src="c2-assets/image 43.png">
           </div>
           <div>
           <div class="md:flex mt-7 ml-4 items-center">
@@ -279,16 +366,18 @@
           </div>
         
          </div>
+
+       </div>
 
       </div>
        
       </div>
 
-      
-
-
       </div>
     </section>
+
+    <!-- animtion section -->
+     <section></section>
 
     <section class="md:container mx-auto">
       <div class="">
